@@ -1,0 +1,97 @@
+/* Aturan umum */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0A192F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  padding: 40px;
+  background-color: #2B4162;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-parkir{
+  background-color: red;
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card-rekomendasi{
+  background-color: rgb(255, 147, 24);
+  aspect-ratio: 1 / 1;
+  height: 80px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#card-gerbang{
+  background-color: #2c9823;
+  margin: auto;
+  max-width: 200px;
+  height: 50px;
+}
+
+/* Aturan gaya kotak */
+.kotak {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 20px;
+  background-color: #2c9823;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nama {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+/* Aturan gaya warna kotak */
+#parkir_1 {
+  background-color: red;
+}
+
+#parkir_2 {
+  background-color: red;
+}
+
+#parkir_3 {
+  background-color: red;
+}
+
+#parkir_4 {
+  background-color: red;
+}
+
+#parkir_5 {
+  background-color: red;
+}
+
+/* Aturan gaya logo */
+.logo-um {
+  max-width: 150px;
+  margin-bottom: 10px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
